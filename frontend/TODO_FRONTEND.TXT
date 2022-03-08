@@ -1,14 +1,11 @@
-// TODO COLLEGA TUTTI GLI HREF
-// TODO INSTALLA TUTTO SU GATSBY
-// TODO USA USESTATE PER CAMBIARE I COMPONENTI 
-// TODO SUDDIVIDI LE PAGINE IN COMPONENTI PIU PICCOLI!!!!! 
+["BUG", "DEV", "TODO", "TEST"]
 
 
-// TODO METTI SU TUTTE LE PAGINE LA ICONA E IL NOME
-/*
-<Head>
-    <title>Home</title>
-    <meta name="description" content="Enigma Shop" />
-    <link rel="icon" href="/domanda.ico"  className="h-5 w-5"/>
-</Head>
- */
+TODO structure the ui/ux
+BUG facebook & instagram auth
+TODO apply all the routes available on the href
+TODO use ISR to fetch the api data
+TODO use smallet components 
+TODO use nextHead for every page
+TODO give the possibility to have a checkbox during the checkout to pay at the local store & even retire the product there
+TODO Modify the ui of login on next-auth

@@ -1,5 +1,12 @@
 module.exports = {
-    content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/aspect-ratio')],
+    content: {
+        enabled: process.env.NODE_ENV === 'production',
+        content: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+        options: {
+            safelist: [],
+        },
+    },
     theme: {
         screens: {
             sm: '370px',
@@ -25,7 +32,6 @@ module.exports = {
                 165: '64rem',
                 182: '71rem',
             },
-
             colors: {
                 beige: {
                     50: '#fcfaf9',
@@ -48,5 +54,4 @@ module.exports = {
             },
         },
     },
-    plugins: [require('@tailwindcss/forms'), require('@tailwindcss/aspect-ratio')],
 }
